@@ -30,21 +30,19 @@ export default function Carousel() {
         ))}
       </div>
 
-      {/* Botões */}
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-white text-black/60 p-2 rounded-full hover:bg-white/50"
+        className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-white text-black/60 p-2 rounded-full hover:bg-white/50 hover:cursor-pointer"
       >
         ‹
       </button>
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-white text-black/60 p-2 rounded-full hover:bg-white/50"
+        className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-white text-black/60 p-2 rounded-full hover:bg-white/50 hover:cursor-pointer"
       >
         ›
       </button>
 
-      {/* Dots de navegação */}
       <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex gap-2">
         {images.map((_, index) => (
           <button
