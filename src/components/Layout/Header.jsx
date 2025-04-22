@@ -9,9 +9,9 @@ export default function Header() {
       </Link>
 
       <nav className="flex gap-4">
-        <Link to="/about">Sobre</Link>
-        <Link to="/project">Projeto</Link>
-        <Link to="/contact">Contato</Link>
+        <Link className="hover:text-[#64C99D] transition duration-300" to="/about">Sobre</Link>
+        <Link className="hover:text-[#64C99D] transition duration-300" to="/project">Projeto</Link>
+        <Link className="hover:text-[#64C99D] transition duration-300" to="/contact">Contato</Link>
       </nav>
     </header>
   )
