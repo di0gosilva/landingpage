@@ -1,9 +1,12 @@
 export default function Project() {
   return (
-    <main className="flex flex-1 flex-col items-center justify-center gap-6 text-lg">
-      <h1 className="text-3xl font-medium">SMARTCASH - Controlador Financeiro Pessoal</h1>
+    <main className="flex flex-1 flex-col items-center justify-center gap-6 py-6 px-2 lg:text-lg">
+      <div className="text-2xl font-medium text-center">
+        <h1>SMARTCASH</h1>
+        <h1>Controlador Financeiro Pessoal</h1>
+      </div>
 
-      <div className="flex flex-col gap-1 w-[800px]">
+      <div className="flex flex-col gap-1 max-w-[800px] w-full">
         <p>Muitas pessoas enfrentam dificuldades para acompanhar seus gastos mensais e manter um controle eficiente das finanças pessoais. Embora existam planilhas e aplicativos disponíveis, nem sempre são práticos ou personalizados para a realidade do usuário.</p>
 
         <p>Pensando nisso, desenvolvi um sistema web de controle financeiro que facilita o registro e o acompanhamento de receitas e despesas de forma simples, rápida e acessível. Diferente de planilhas tradicionais, a plataforma permite ao usuário visualizar seu saldo atualizado, visualizar gastos por categoria através de um gráfico e ter uma visão clara de sua saúde financeira mensal – tudo em um ambiente intuitivo e direto ao ponto.</p>

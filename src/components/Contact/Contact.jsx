@@ -13,7 +13,7 @@ export default function Contact() {
   }
 
   return (
-    <main className="w-[1080px] mx-auto relative flex flex-1 flex-col items-center justify-center gap-10 text-lg">
+    <main className="max-w-[1080px] w-full mx-auto relative flex flex-1 flex-col items-center justify-center gap-10 text-lg text-center px-3">
       <div className="flex items-center gap-4">
         <h1 className="text-4xl font-medium">
         <a
