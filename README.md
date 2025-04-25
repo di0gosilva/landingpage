@@ -1,12 +1,48 @@
-# React + Vite
+# Landing Page com React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma **landing page** desenvolvida com **React** e **React Router**, criada com o objetivo de praticar a navegação entre páginas em aplicações React. A página apresenta um projeto anterior que foi implementado utilizando HTML, CSS e JavaScript puros.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/)
+- [React Router DOM](https://reactrouter.com/)
+- [Tailwind CSS](https://tailwindcss.com/docs/installation/using-vite)
 
-## Expanding the ESLint configuration
+## 🎯 Objetivo do Projeto
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Praticar a configuração e utilização do `react-router-dom` para navegação entre páginas.
+- Estruturar componentes reutilizáveis para cada seção da landing page.
+- Reaproveitar o conteúdo de um projeto anterior, aplicando conceitos modernos de desenvolvimento com React.
+
+## 🖼️ Layout do Projeto
+
+### 🏠 Página Inicial
+![Página Inicial](./assets/home.png)
+
+### 👤 Sobre
+![Seção Sobre](./assets/sobre.png)
+
+### 📁 Projetos
+![Seção Projetos](./assets/projetos.png)
+
+### 📞 Contato
+![Seção Contato](./assets/contato.png)
+
+> As imagens acima ilustram cada seção da landing page, demonstrando a navegação entre elas utilizando o React Router.
+
+## 🔧 Como Executar o Projeto Localmente
+
+Siga os passos abaixo para clonar e executar o projeto em sua máquina:
+
+```bash
+# Clone o repositório
+git clone https://github.com/di0gosilva/landingpage.git
+
+# Acesse o diretório do projeto
+cd landingpage
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm start
