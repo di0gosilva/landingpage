@@ -45,4 +45,4 @@ cd landingpage
 npm install
 
 # Inicie o servidor de desenvolvimento
-npm start
+npm run dev
