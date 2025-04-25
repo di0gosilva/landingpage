@@ -24,7 +24,7 @@ Este projeto é uma **landing page** desenvolvida com **React** e **React Router
 
 > As imagens acima ilustram cada seção da landing page, demonstrando a navegação entre elas utilizando o React Router.
 
-## Tecnologias Utilizadas 🚀
+## Tecnologias Utilizadas ⚙️
 
 - [React](https://reactjs.org/)
 - [React Router DOM](https://reactrouter.com/)
